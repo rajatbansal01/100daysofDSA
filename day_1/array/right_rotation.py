@@ -1,6 +1,6 @@
 #right rotation of array
 #it avoids unnecessary no. of recursions for large no. of rotations.
-def right_rot(arr,s):# r is the no. of times to rotate
+def right_rot(arr,s):# s is the no. of times to rotate
     n=len(arr)
     s=s%n
     #print(s)
