@@ -4,5 +4,6 @@ def linear_search(arr,x):
             return(i)
     return("not found")
 
+#test case
 arr=[2,3,4,5,6,7,45]
 print(linear_search(arr,4))
