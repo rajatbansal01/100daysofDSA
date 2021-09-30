@@ -10,4 +10,6 @@ for i in range(n//k-1):
     if x not in arr[i*k:(i+1)*k]:
         r=0
 print(r)
+
+print("Rajat")
     
