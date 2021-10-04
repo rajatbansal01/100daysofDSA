@@ -16,7 +16,7 @@ class Car:
 
     #   Without parameters
     def full_name(self):
-        return f'{self.brand - self.name}'
+        return f'{self.brand - self._name}'
 
 
 #   Object instantiation.
