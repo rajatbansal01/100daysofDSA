@@ -13,3 +13,7 @@ It has state (data) and behavior (code).
 it can accept arguments that the constructor uses to set required
 member variables. The number of the arguments and the order matter
 when instantiating an object.
+
+##Inheritance:
+* Inheritance is the mechanism of basing an object or class upon another object or class,
+retaining similar implementation.
