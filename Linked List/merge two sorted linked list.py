@@ -17,11 +17,6 @@ def takeinput():
                 curr=curr.next
             curr.next=newnode
     return head
-def printLL(head):
-    while head is not None:
-        print(str(head.data)+"->",end="")
-        head=head.next
-    print("None")
 def mergesortedlist(h1,h2):
     if h1.data<h2.data:
         fh=h1
@@ -44,21 +39,6 @@ def mergesortedlist(h1,h2):
         ft.next=h1
     else:
         ft.next=h2
-    return fh
-def sortlinkedlist(head):
-    if head.next is None:
-        return head
-    slow=head
-    fast=head
-    while fast.next is not None and fast.next.next is not None:
-        slow=slow.next
-        fast=fast.next.next
-    mid=slow
-    head2=mid.next
-    mid.next=None
-    sortlinkedlist(head)
-    sortlinkedlist(head2)
-    fh=mergesortedlist(head,head2)
     return fh
 
 
