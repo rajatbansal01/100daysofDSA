@@ -40,13 +40,13 @@ def mergesortedlist(h1,h2):
     else:
         ft.next=h2
     return fh
+def printLL(head):
+    while head is not None:
+        print(str(head.data)+"->",end="")
+        head=head.next
+    print("None")
 
-
-head=takeinput()
-#head2=takeinput()
-#printLL(head1)
-#printLL(head2)
-#head3=mergesortedlist(head1,head2)
-#printLL(head3)
-head4=sortlinkedlist(head)
-printLL(head4)
+head1=takeinput()
+head2=takeinput()
+head3=mergesortedlist(head1,head2)
+printLL(head3)
