@@ -51,3 +51,5 @@ $RECYCLE.BIN/
 
 *.json
 CN DSA/.ipynb_checkpoints/linked_list-checkpoint.ipynb
+
+*.ipynb_checkpoints
