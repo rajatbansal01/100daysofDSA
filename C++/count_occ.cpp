@@ -1,7 +1,7 @@
 // this code is for counting occrances 
 
 // changes 2
-// there are two approch simle one and mapmethod
+// there are two approch sipmle one and mapmethod
 #include<iostream>
 using namespace std;
 
